@@ -20,11 +20,11 @@ I'd like to see if a bike is working
 | Objects            | Messages          |
 | ------------------ | ----------------- |
 | Person             |                   |
-| Bike               | bike_working      |
-| Station            | bike_release      |
+| Bike               | working?          |
+| DockingStation     | release_bike      |
 
 
 
 ### User Stories Diagram
 
-(Person) bike_working ---> (bike) <--- bike_release (Station)
+(Person) working? ---> (Bike) <--- release_bike (DockingStation)
